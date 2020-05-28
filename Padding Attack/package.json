@@ -1,0 +1,31 @@
+{
+  "name": "tls-backdoor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "fetch": "^1.1.0",
+    "mersenne-twister": "^1.1.0",
+    "node-fetch": "^2.6.0",
+    "r2": "^2.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "request-promise-native": "^1.0.7",
+    "typescript": "^3.4.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/mersenne-twister": "^1.1.2",
+    "@types/node-fetch": "^2.3.4",
+    "@types/request": "^2.48.1",
+    "@types/request-promise": "^4.1.43",
+    "@types/request-promise-native": "^1.0.16"
+  }
+}
