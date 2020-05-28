@@ -1,0 +1,2 @@
+My assigment was to attack the server (index.ts) by expoiting it's vulnerabilities.
+Padding attack uses the server errors displayed to console in order to get the encrypted data
