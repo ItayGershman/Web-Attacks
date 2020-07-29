@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    width: 200px;
+    min-height: 200px;
+}
+
+.trackers-history {
+    justify-content: center;
+    text-align: center;
+}
