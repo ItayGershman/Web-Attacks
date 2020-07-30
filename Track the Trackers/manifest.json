@@ -1,7 +1,7 @@
 {
     "name": "Track The Trackers",
     "version": "1.0",
-    "description": "a Google Chrome extension that can inform the user which trackers/ad-services they encounter during their browsing",
+    "description": "A Google Chrome extension that can inform the user which trackers/ad-services they encounter during their browsing",
     "permissions": [
         "storage",
         "activeTab"
@@ -16,15 +16,13 @@
         "title": "Track The Trackers",
         "default_popup": "popup.html"
     },
-    "content_scripts": [
-        {
-            "matches": [
-                "<all_urls>"
-            ],
-            "js": [
-                "trackers.js"
-            ]
-        }
-    ],
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": [
+            "trackers.js"
+        ]
+    }],
     "manifest_version": 2
 }
