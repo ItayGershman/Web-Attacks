@@ -19,26 +19,25 @@ const getHistoryTrackers = (history) => {
         const trackerID = document.getElementById(`${tracks}_history`)
         if (history[tracks].length) {
             history[tracks].forEach(value => {
-                trackerID.innerHTML += `<li>${value}</li>`
+                trackerID.innerHTML += `<li style="margin-rigth:26%">${value}</li>`
             })
-        }
-        else {
-            trackerID.innerHTML += `<li><p>No History for this tracker</p></li>`
+        } else {
+            trackerID.innerHTML += `<li style="margin-rigth:22%"><p>No History for this tracker</p></li>`
         }
     }
 }
 
 window.onload = () => {
     chrome.runtime.sendMessage({
-            context: 'getTrackers',
-        },
-        (res) => {
-            const { current, history } = res
-            getWebsiteTrackers(current)
-            getHistoryTrackers(history)
-        }
-    )
-    //Add onClick to buttons
+                context: 'getTrackers',
+            },
+            (res) => {
+                const { current, history } = res
+                getWebsiteTrackers(current)
+                getHistoryTrackers(history)
+            }
+        )
+        //Add onClick to buttons
     const acc = document.getElementsByClassName('accordion')
     for (let i = 0; i < acc.length; i++) {
         acc[i].addEventListener('click', function() {
