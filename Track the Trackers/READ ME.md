@@ -9,27 +9,27 @@ We chose these 5 Trackers:
 
 3 websites found to be using each one of these trackers:
 
-zoom
+Zoom
 www.sport5.co.il
 www.calcalist.co.il
 https://www.geektime.co.il/
 
-google analytics
+Google Analytics
 www.walla.co.il
 www.sport5.co.il
 www.one.co.il
 
-facebook
+Facebook
 www.walla.co.il
 www.sport5.co.il
 www.one.co.il
 
-aliexpress
+Aliexpress
 https://www.daraz.pk/
 https://www.lazada.co.id/
 https://www.shop.com.mm/
 
-linkedin
+LinkedIn
 https://adf.ly/
 https://10times.com/
 http://www.jobs.net/
