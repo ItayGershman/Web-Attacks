@@ -13,7 +13,7 @@
     "express": "^4.16.4",
     "fetch": "^1.1.0",
     "mersenne-twister": "^1.1.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.1.1",
     "r2": "^2.0.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
